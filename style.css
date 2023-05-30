@@ -5,16 +5,43 @@
 }
 
 
-/* LOgin button style */
-.topnav login {
-   float: left;
+/* LOgin button and sign up button on nav bar*/
+.loginbutton {
+  float: right;
   display: block;
-  color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  color: white;
+  position: fixed;
+  top: 0px;
+  right: 90px;
 }
+
+.signupbutton {
+  float: right;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  color: white;
+  position: fixed;
+  top: 0px;
+  right: 5px;
+}
+
+.loginbutton:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.signupbutton:hover {
+  background-color: #ddd;
+  color: black;
+}
+
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
